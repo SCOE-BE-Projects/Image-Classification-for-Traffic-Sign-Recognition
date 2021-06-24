@@ -7,9 +7,13 @@ The YOLOv3 model is a model from darknet and is pretrained on COCO image dataset
 
 # Explanation of the files and folders: 
 final_models: This foldercontaines the final trained models, configuration files and text files used during classification.
-  |-> category.names: This file containes the 4 categories in which the YOLO classifies the traffic sign
-  |-> classes.txt: This file containes the list of 43 classes of traffic signs in which the CNN classifies the Croped traffic signs
+
+  |-> category.names: This file containes the 4 categories in which the YOLO classifies the traffic sign.
+  
+  |-> classes.txt: This file containes the list of 43 classes of traffic signs in which the CNN classifies the Croped traffic signs.
+  
   |-> cnn26.h5: This is the trained CNN model.
+  
   |-> yolov3.cfg: This is the configuration file for the YOLOv3 model, containing the information of all layers in YOLO
   |-> yolov3.weights: This is the trained YOLOv3 model.
   Due the large file size, the two models are not uploaded to the Github repository, these two files can be obtained from https://drive.google.com/file/d/1TuQ3mib2u4MDKnL_uyQtXg0hvG_CFkze/view?usp=sharing
