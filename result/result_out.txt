@@ -1,0 +1,2 @@
+1. 28- Children crossing: 99.998%
+2. 1- Speed limit (30km/h): 100.000%
