@@ -128,7 +128,7 @@ def classify(path):
         # corresponding confidences are low or there is another
         # bounding box for this region with higher confidence
         results = cv2.dnn.NMSBoxes(boundingBoxes, confidences, minimumProbability, threshold)
-        print("Number of Digns Detected : %d" %len(results))
+        print("Number of Signs Detected : %d" %len(results))
 
         # Checking if there is at least one detected object after non-maximum suppression
         counter = 1
