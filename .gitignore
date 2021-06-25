@@ -1,0 +1,5 @@
+#all the files in oth directory
+oth/
+
+#all the files in _pycache_ directory (.pyc files)
+*.pyc
