@@ -13,7 +13,7 @@ def classify(path):
         namesFilePath = os.path.join(currentDirectory, "final_models", "category.names")
         configFilePath = os.path.join(currentDirectory, "final_models", "yolov3.cfg")
         yoloWeightsPath = os.path.join(currentDirectory, "final_models", "yolov3.weights")
-        cnnModelPath = os.path.join(currentDirectory, "final_models", "cnn10.h5")
+        cnnModelPath = os.path.join(currentDirectory, "final_models", "cnn26.h5")
         classesFilePath = os.path.join(currentDirectory, "final_models", "classes.txt")
         resultTextPath = os.path.join(currentDirectory, "result", "result_out.txt")
         resultImagePath = os.path.join(currentDirectory, "result", "result.jpg")
@@ -128,7 +128,7 @@ def classify(path):
         # corresponding confidences are low or there is another
         # bounding box for this region with higher confidence
         results = cv2.dnn.NMSBoxes(boundingBoxes, confidences, minimumProbability, threshold)
-        print("Number of Digns Detected : %d" %len(results))
+        print("Number of Signs Detected : %d" %len(results))
 
         # Checking if there is at least one detected object after non-maximum suppression
         counter = 1
